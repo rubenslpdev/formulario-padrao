@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <section class="home">
+      <div class="form_container">
+        <div class="alert-success">
+          Login bem-sucedido!
+          <div class="progress-bar"></div>
+        </div>
+        <div class="form login_form">
+          <form id="login-form">
+            <h2>Login</h2>
+            <div class="input_box">
+              <input type="email" id="login-email" required />
+              <label for="login-email">Digite seu email</label>
+              <i class="uil uil-envelope-alt email"></i>
+              <div class="error"></div>
+            </div>
+
+            <div class="input_box">
+              <input type="password" id="login-password" required />
+              <label for="login-password">Digite sua senha</label>
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+              <div class="error"></div>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Me lembre</label>
+              </span>
+              <a href="#" class="forgot_pw">Esqueceu a senha?</a>
+            </div>
+            <button type="submit" class="button">Entrar</button>
+            <div class="login_signup">Não tem uma conta? <a href="./signup.html" id="signup">Inscreva-se</a></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script-login.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
