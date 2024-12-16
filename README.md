@@ -1,3 +1,5 @@
+Criação de um formulário padrão de login e criação de usuário com validação completa dos campos, animação de floating placeholder via CSS nos campos e por fim e mais importante para esse exercício, o salvamento dos valores inseridos no localStorage e posteriormente o resgate desses valores na página de Login.
+
 ## Local storage
 
 Aqui está um exemplo simples de como estruturar as páginas de **login** e **signup** usando HTML, CSS e JavaScript para armazenar os dados do usuário no `localStorage` e preencher o formulário de login automaticamente.

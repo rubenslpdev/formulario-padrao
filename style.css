@@ -35,7 +35,7 @@ a {
   background: #fff;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .form_container h2 {
@@ -184,10 +184,17 @@ a {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+  transition: all 0.2s ease;
 }
 
 .form_container .button:hover {
   background-color: #394ea1;
+}
+
+.form_container .button:active {
+  transform: scale(0.99);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
 }
 
 .login_signup {
