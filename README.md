@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Criação de um formulário padrão de login e criação de usuário com validação completa dos campos, animação de floating placeholder via CSS nos campos e por fim e mais importante para esse exercício, o salvamento dos valores inseridos no localStorage e posteriormente o resgate desses valores na página de Login.
+=======
+Criação de um formulário padrão de login e criação de usuário com validação completa dos campos, animação de floating placeholder via CSS nos campos e por fim e mais importante para esse exercício, o salvamento dos valores inseridos no localStorage e posterior resgate desses valores na página de Login.
+>>>>>>> 1c33746f1e552c10869cb5b69ddc1daeeacfca43
 
 ## Local storage
 
